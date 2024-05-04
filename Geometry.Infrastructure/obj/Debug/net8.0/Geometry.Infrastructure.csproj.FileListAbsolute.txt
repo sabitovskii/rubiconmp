@@ -1,0 +1,12 @@
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\bin\Debug\net8.0\Geometry.Infrastructure.deps.json
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\bin\Debug\net8.0\Geometry.Infrastructure.dll
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\bin\Debug\net8.0\Geometry.Infrastructure.pdb
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\obj\Debug\net8.0\Geometry.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\obj\Debug\net8.0\Geometry.Infrastructure.AssemblyInfoInputs.cache
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\obj\Debug\net8.0\Geometry.Infrastructure.AssemblyInfo.cs
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\obj\Debug\net8.0\Geometry.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\obj\Debug\net8.0\Geometry.Infrastructure.sourcelink.json
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\obj\Debug\net8.0\Geometry.Infrastructure.dll
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\obj\Debug\net8.0\refint\Geometry.Infrastructure.dll
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\obj\Debug\net8.0\Geometry.Infrastructure.pdb
+C:\Work\trashcan\rubiconmp\Geometry.Infrastructure\obj\Debug\net8.0\ref\Geometry.Infrastructure.dll
