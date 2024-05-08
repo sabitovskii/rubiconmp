@@ -1,14 +1,13 @@
-﻿namespace Geometry.Domain.Entities
-{
-    public struct Point
-    {
-        public double X { get; set; }
-        public double Y { get; set; }
+﻿using System.ComponentModel.DataAnnotations;
 
-        public Point(double x, double y)
-        {
-            X = x;
-            Y = y;
-        }
+namespace Geometry.Domain.Entities
+{
+    public class Point
+    {
+        [Required]
+        public double X { get; set; }
+
+        [Required]
+        public double Y { get; set; }
     }
 }

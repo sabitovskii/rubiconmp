@@ -1,14 +1,13 @@
-﻿namespace Geometry.Domain.Entities
-{
-    public class Segment
-    {
-        public Point A { get; set; }
-        public Point B { get; set; }
+﻿using System.ComponentModel.DataAnnotations;
 
-        public Segment(Point a, Point b)
-        {
-            A = a;
-            B = b;
-        }
+namespace Geometry.Domain.Entities
+{
+    public class Segment : Entity
+    {
+        [Required]
+        public Point Start { get; set; }
+
+        [Required]
+        public Point End { get; set; }
     }
 }

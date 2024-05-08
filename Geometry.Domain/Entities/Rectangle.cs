@@ -1,18 +1,19 @@
-﻿namespace Geometry.Domain.Entities
-{
-    public class Rectangle
-    {
-        public Point A { get; set; }
-        public Point B { get; set; }
-        public Point C { get; set; }
-        public Point D { get; set; }
+﻿using System.ComponentModel.DataAnnotations;
 
-        public Rectangle(Point a, Point b, Point c, Point d)
-        {
-            A = a;
-            B = b;
-            C = c;
-            D = d;
-        }
+namespace Geometry.Domain.Entities
+{
+    public class Rectangle : Entity
+    {
+        [Required]
+        public Point A { get; set; }
+
+        [Required]
+        public Point B { get; set; }
+
+        [Required]
+        public Point C { get; set; }
+
+        [Required]
+        public Point D { get; set; }
     }
 }
