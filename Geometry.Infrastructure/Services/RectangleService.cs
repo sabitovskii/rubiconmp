@@ -26,7 +26,7 @@ namespace Geometry.Infrastructure.Services
             if (!validationResult.IsValid)
             {
                 var failure = validationResult.Errors.First();
-                var errorMessage = $"Property {failure.PropertyName} failed validation, error: {failure.ErrorMessage}";
+                var errorMessage = $"Validation failed, error: {failure.ErrorMessage}";
                 throw new InvalidRectangleException(errorMessage);
             }
             var entity = rectangleDto.ToEntity();
@@ -82,6 +82,13 @@ namespace Geometry.Infrastructure.Services
             double d2 = Direction(p2, q2, q1);
             double d3 = Direction(p1, q1, p2);
             double d4 = Direction(p1, q1, q2);
+
+            if (d1 == 0 && d2 == 0 && d3 == 0 && d4 == 0)
+            {
+                // Check if they are overlapping
+                return (IsOnSegment(p1, p2, q1) || IsOnSegment(p1, q2, q1) ||
+                        IsOnSegment(p2, p1, q2) || IsOnSegment(p2, q1, q2));
+            }
 
             if (((d1 > 0 && d2 < 0) || (d1 < 0 && d2 > 0)) &&
                 ((d3 > 0 && d4 < 0) || (d3 < 0 && d4 > 0)))

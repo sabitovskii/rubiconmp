@@ -14,10 +14,8 @@ namespace Geometry.Infrastructure
         {
             services.AddDbContext<GeometryDbContext>(options => options.UseNpgsql(connectionString));
             services.AddScoped<IRectangleRepository, RectangleRepository>();
-            services.AddScoped<ISegmentRepository, SegmentRepository>();
 
             services.AddScoped<IRectangleService, RectangleService>();
-            services.AddScoped<ISegmentService, SegmentService>();
 
             return services;
         }
