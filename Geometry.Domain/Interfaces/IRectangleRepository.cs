@@ -4,7 +4,7 @@ namespace Geometry.Domain.Interfaces
 {
     public interface IRectangleRepository
     {
-        Task<IReadOnlyCollection<Rectangle>> GetAllAsync();
+        Task<IReadOnlyCollection<Rectangle>> GetBatchAsync(int skip, int batchSize);
         Task<Rectangle> CreateAsync(Rectangle rectangle);
     }
 }

@@ -7,5 +7,28 @@ dotnet ef migrations add Initial --project ../Geometry.Infrastructure/ --startup
 
 #### To update DB (run all migrations)
 ```bash
-dotnet ef database update --project ../Geometry.Infrastructure/ --startup-project Geometry.API.csproj -o ../Geometry.Infrastructure/Data/Migrations
+dotnet ef database update --project ../Geometry.Infrastructure/ --startup-project Geometry.API.csproj
+```
+
+
+#### Example request for creating new rectangle:
+```json
+{
+  "a": {
+    "x": 10,
+    "y": 3
+  },
+  "b": {
+    "x": 10,
+    "y": 7
+  },
+  "c": {
+    "x": 5,
+    "y": 7
+  },
+  "d": {
+    "x": 5,
+    "y": 3
+  }
+}
 ```

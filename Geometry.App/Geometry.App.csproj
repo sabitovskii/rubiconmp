@@ -15,8 +15,4 @@
     <ProjectReference Include="..\Geometry.Domain\Geometry.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Exceptions\" />
-  </ItemGroup>
-
 </Project>
